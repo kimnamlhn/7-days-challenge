@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FieldSet</title>
+</head>
+<body>
+    <h1>FieldSet</h1>
+    <form name="frmFielSet" action="01_Result.html" method="GET" >
+        <fieldset>
+            <legend>Information</legend>
+            <label for="name">Name: </label>
+            <input type="text"> <br>
+            <label for="Food">Food like: </label>
+            <select name="list-food" id="food-listbox">
+                <option value="pho">Pho - Vietnamese noodle</option>
+                <option value="chicken">Chicken soup</option>
+                <option value="duck">Duck subegg</option>
+                <option value="bird">Baby bird dry</option>
+            </select>
+            <br>
+            <label for="images">Images </label>
+            <input type="file"> <br>
+            <input type="submit" value="Order">
+            <input type="reset" value="Reset">
+            <input type="button" value="Show message" onclick="alert('Hello everyone!!!')">
+        </fieldset>
+        
+    </form>
+</body>
+</html>
