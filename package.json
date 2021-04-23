@@ -1,0 +1,19 @@
+{
+  "name": "lab-ptudw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimnamlhn/Lab-PTUDW.git"
+  },
+  "author": "Nam Le Hoai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimnamlhn/Lab-PTUDW/issues"
+  },
+  "homepage": "https://github.com/kimnamlhn/Lab-PTUDW#readme"
+}
